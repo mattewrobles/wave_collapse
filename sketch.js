@@ -124,7 +124,7 @@ const NA = reglas.length; //Numero de azulejos
 
 function preload(){ //carga las imagenes
   for(let i = 0; i < NA; i++) {
-    azulejos[i] = loadImage(`tiles/tile${i}.png`);
+    azulejos[i] = loadImage(`tiles/Tile${i}.png`);
   }
 }
 
